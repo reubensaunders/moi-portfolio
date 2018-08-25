@@ -4,7 +4,7 @@ class Info extends Component{
 
     render(){
         return(
-            <div className="infoSection" hidden={this.props.hidden}>
+            <div className="infoSection">
             <p>
              {this.props.text}
             </p>
